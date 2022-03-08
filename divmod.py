@@ -1,0 +1,6 @@
+dias, segundos = divmod(5000012, 86400)
+print(f'dias{dias}')
+horas, segundos = divmod(segundos, 3600)
+print(f'horas{horas}')
+minutos, segundos = divmod(segundos, 60)
+print(f'minutos{minutos}\nsegundos{segundos}')
